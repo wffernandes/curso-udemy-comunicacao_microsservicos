@@ -1,4 +1,4 @@
-package br.com.cursoudemy.productapi.config.Exception.interceptor;
+package br.com.cursoudemy.productapi.config.interceptor;
 
 import br.com.cursoudemy.productapi.config.Exception.ValidadionException;
 import br.com.cursoudemy.productapi.modules.jwt.service.JwtServices;

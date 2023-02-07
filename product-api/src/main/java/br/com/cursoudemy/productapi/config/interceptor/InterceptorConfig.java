@@ -1,4 +1,4 @@
-package br.com.cursoudemy.productapi.config.Exception.interceptor;
+package br.com.cursoudemy.productapi.config.interceptor;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

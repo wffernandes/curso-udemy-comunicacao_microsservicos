@@ -1,12 +1,11 @@
 package br.com.cursoudemy.productapi.modules.category.model;
 
 import br.com.cursoudemy.productapi.modules.category.dto.CategoryRequest;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.BeanUtils;
-
-import javax.persistence.*;
 
 @Data
 @Entity
@@ -16,7 +15,7 @@ import javax.persistence.*;
 public class Category {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "DESCRIPTION", nullable = false)
